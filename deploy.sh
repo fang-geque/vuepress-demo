@@ -18,6 +18,7 @@ git commit -m 'deploy'
 
 # 如果你想要部署到 https://USERNAME.github.io
 git push -f https://github.com/fang-geque/github.io master
+# git push -f https://gitee.com/coder-ws/vue-blog master
 
 # 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
 # git push -f git@github.com:USERNAME/<REPO>.git master:gh-pages

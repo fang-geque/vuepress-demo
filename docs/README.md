@@ -4,7 +4,7 @@ heroImage: /touxiang2.jpg
 heroText: 我的主页
 tagline: My homepage
 actionText: 技术文档 →
-actionLink: /tech/interview/
+actionLink: /view/tech/
 features:
 - title: 简洁至上
   details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。

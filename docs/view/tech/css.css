@@ -1,0 +1,23 @@
+*{
+  margin: 0 auto;  /*水平*/
+  text-align: center; /*水平*/
+  行高和高度相同  /*垂直*/
+  表格，center,middle; /* 水平垂直 */
+  display: table-cell;  /* 模拟表格,all */
+  绝对定位, top,left 都来50%减自身宽高
+  绝对定位，上下左右全0，margin:auto
+  绝对定位加相对定位。不需要知道宽高
+  IE6，IE7：给父元素设一个font-size:高度/1.14,vertical-align:middle
+}
+
+.clear-fix::after{
+  content:'';
+  display: block;
+  clear: both;
+  height: 0;  /* 兼容旧浏览器 */
+  visibility: hidden; /* 兼容旧浏览器 */
+}
+
+.clear-fix{
+  *zoom:1; /* 兼容IE6~7 */
+}
